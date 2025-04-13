@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    background-image: url(./img/background-login.png);
+}
+
+.divLeft{
+    background-image: url(./img/background-login.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 800px;
+    text-align: center;
+    align-items: center;
+}
+
+.divRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 3.25rem 4.75rem;
+}
+
+.login{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+label{
+    margin-top: 20px;
+}
+
+.inputLogin{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.checkboxDiv{
+    color: white;
+    padding: 0 10px;
+}
+
+#checkbox{
+    margin-right: 8px;
+}
+
+.imgLogo{
+    height: 250px;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e1e1e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a{
+    margin-top: 10px;
+    color: white;
+}
+
+.inputLogin:hover{
+    cursor: pointer;
+}
+
+.inputLogin:focus{
+    outline: none;
+    border: 1px solid #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
+
+#checkbox:checked + label{
+    color: #007bff;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+a:hover{    cursor: pointer;
+    color: #007bff;
+}
+
+.titleLogin{
+    color: white;
+    font-size: 30px;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 1.6rem;
+}
+
+#imgWhatsapp{
+    height: 80px;
+}
+
+.whatsapp:hover{
+    cursor: pointer;
+}
+
+#imgWhatsapp:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
