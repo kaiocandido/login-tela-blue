@@ -15,8 +15,8 @@ main{
 }
 
 .divLeft{
-    background-image: url(./img/background-login.png);
-    background-size: cover;
+    background-image: url(./img/ChatGPT\ Image\ 13\ de\ abr.\ de\ 2025\,\ 18_28_19.png);
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -40,6 +40,8 @@ p{
     justify-content: center;
     width: 100%;
     padding: 3.25rem 4.75rem;
+    background-image: url(./img/background-login.png);
+    background-repeat: no-repeat;
 }
 
 .login{
